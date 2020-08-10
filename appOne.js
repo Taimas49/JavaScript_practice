@@ -7,7 +7,7 @@ function start() {
     }
 }
 
-// start();
+start();
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
@@ -30,7 +30,7 @@ function rememberMyFilms() {
     
     }
 }
-// rememberMyFilms();
+rememberMyFilms();
 
 //Часть 2
 function detectPersonalLevel() {
