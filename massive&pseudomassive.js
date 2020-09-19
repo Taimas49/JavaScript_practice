@@ -32,7 +32,7 @@ for (let value of arr2) {
 const arr3 = [1, 2, 3, 4, 5, 6, 10];
 // Позволяет гибко перебрать все элементы массива 
 arr3.forEach(function(item/*элемент который перебираем*/ , i/*номер по порядку*/, arr3/*массив который перебираем */) {
-    console.log(`${i}: ${item} внутри массива ${arr3}`);
+    console.log(`Элемент №${i+1}: ${item} внутри массива ${arr3}`);
 });
 
 //Формирование массива на основании строк 
@@ -64,3 +64,18 @@ function compareNum(a, b) {
     return a - b;
 }
 //
+
+
+
+const strings = 'Hello';
+for (let i of strings) {
+    if (i == 'H') {
+        console.log(`Найдена переменая ${i}`)
+    }
+}
+
+
+
+const kdss = [3, 5, 234, 11, 63, 34, 624];
+
+console.log(kdss.splice(2, 2, 123, 234));

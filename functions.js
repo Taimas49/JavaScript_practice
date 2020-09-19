@@ -42,7 +42,11 @@ console.log(annum);// получаем в консоли 50
 
 
 // function declaration 
-
+function nameK () {
+    //Код
+    //Существует до того как ее можно применить 
+    //Первым делом сканирует функции declaration
+}
 
 //function expression 
 const logger = function() {
@@ -57,5 +61,7 @@ function calc(a, b) {
 }
 console.log(calc(2, 10));
 
-const calcul = (a, b) => a + b;
+const calcul = (a, b) => {
+    return a + b;
+};    
 const cal = (a, b) => {a + b;};
